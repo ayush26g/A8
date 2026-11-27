@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Text and List Properties</title>
+    <style>
+        /* CSS Link Pseudo-classes (Syllabus Requirement) */
+        a:link {
+            color: blue;
+            text-decoration: none;
+        }
+        a:visited {
+            color: purple;
+        }
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+        a:active {
+            color: green;
+        }
+
+        /* Text Properties */
+        .text {
+            color: blue;
+            text-align: center;
+            text-decoration: underline;
+            text-transform: uppercase;
+            text-indent: 20px;
+            line-height: 2;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+            text-shadow: 2px 2px 2px gray;
+        }
+
+        /* CSS List Properties */
+        ul {
+            list-style-type: square;
+            list-style-position: inside;
+        }
+
+        ol {
+            list-style-type: upper-roman;
+            list-style-position: outside;
+        }
+
+        .image-list {
+            list-style-image: url("logo.png");
+        }
+
+        .custom-list {
+            list-style: circle inside;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Text and List Properties</h1>
+    <hr>
+
+    <h2>1. CSS Text Properties</h2>
+    <p class="text">
+        CSS Text Properties are used to change the appearance, alignment, spacing and decoration of text on a webpage.
+    </p>
+
+    <hr>
+
+    <h2>2. CSS List Properties</h2>
+
+    <h3>List Style Type (Square)</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h3>List Style Type (Upper Roman)</h3>
+    <ol>
+        <li>Computer</li>
+        <li>Internet</li>
+        <li>Programming</li>
+    </ol>
+
+    <h3>List Style Image</h3>
+    <ul class="image-list">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Orange</li>
+    </ul>
+
+    <h3>List Style Shorthand</h3>
+    <ul class="custom-list">
+        <li>Web Designing</li>
+        <li>Web Development</li>
+        <li>Web Technology</li>
+    </ul>
+
+    <hr>
+
+    <h2>3. Link Pseudo-classes</h2>
+    <p><a href="https://recbanda.ac.in" target="_blank">Visit College Website</a></p>
+
+</body>
+</html>
